@@ -1,10 +1,12 @@
 'use strict';
 
 {
+  function createColum(col) {
+    const source = [];
+    for (let i = 0; i < 15; i++) {
+      source[i] = i + 1 + 15 * col;
+    }
 
-  const source = [];
-  for (let i = 0; i < 15; i++) {
-    source[i] = i + 1;
   }
 
   const b = [];
